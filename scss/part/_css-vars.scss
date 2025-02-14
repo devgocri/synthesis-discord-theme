@@ -25,7 +25,7 @@
 }
 
 code,
-.markup_d6076c pre {
+.markup__75297 pre {
     font-family: var(--font-code);
 }
 
@@ -90,6 +90,10 @@ code,
     --status-warning:               rgb(#{$color-yellow});
     --status-warning-background:    #{transparentize($color-yellow, $status-transparency)};
 
+    .container_ab8609 {
+        --custom-status-bubble-background-color: #{transparentize($color-pop, 0.2)};
+    }
+
     // Profile preview and popout
     .profileColors_ac6ab4 {
         // --profile-body-background-color: rgb(#{$color-background};
@@ -102,8 +106,8 @@ code,
 }
 
 // Popovers
-.layerContainer_cd0de5 .theme-dark,
-.layerContainer_cd0de5 .theme-light {
+.layerContainer_da8173 .theme-dark,
+.layerContainer_da8173 .theme-light {
     --background-primary:       rgb(#{$color-background});
     --background-secondary:     rgb(#{$color-background});
     --background-secondary-alt: #{transparentize($color-background, 0.2)};

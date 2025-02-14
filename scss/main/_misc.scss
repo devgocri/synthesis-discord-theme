@@ -3,25 +3,25 @@
 @use "../top/pill";
 
 // Video call
-.callContainer_d880dc {
+.callContainer_cb9592 {
     background: transparent;
 
-    .gradientContainer_dd069c {
+    .gradientContainer_bfe55a {
         background-image: none;
     }
 }
 
 // Forum
-.container_a6d69a {
+.container_f369db {
     background-color: transparent;
 }
 
 // Various views
-.appMount_ea7e65 {
-    .container_f1fd9c,
+.appMount__51fd7 {
+    .container__0b563,
     .container_c2efea,
-    .themed_e44302,
-    .emptyPage_c6b11b,
+    .themed__9293f,
+    .emptyPage__5d7c9,
     .scrollerContainer_c6b11b,
     .pageWrapper_a3a4ce {
         background: transparent;
@@ -43,7 +43,7 @@
         box-shadow: none;
     }
 
-    .select_f6639d {
+    .select__3f413 {
         border-radius: $item-spacing;
     }
 }

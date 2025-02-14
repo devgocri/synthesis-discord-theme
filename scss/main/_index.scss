@@ -14,18 +14,18 @@
 @use "../top/box";
 
 // Base colour
-.appMount_ea7e65,
+.appMount__51fd7,
 body {
     background-color: $color-background;
 }
 
 // Image background
-.bg_d4b6c5 {
+.bg__960e4 {
     background: $background-image center/cover;
 }
 
 // Main view
-.container_a4d4d9 {
+.container_c48ade {
     @include box.outmost;
     width: auto;
 
@@ -40,7 +40,7 @@ body {
     }
 
     // Scanline overlay over server and channel sidebars (when not in fullscreen mode)
-    &:not(:has(.fullScreen_d880dc))::before {
+    &:not(:has(.fullScreen_cb9592))::before {
         margin: $sidebar-spacing;
         width: $sidebar-width + $channels-width + $sidebar-border-width;
         height: calc(100% - (2 * ($sidebar-spacing + $sidebar-border-width)));
